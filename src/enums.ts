@@ -1,0 +1,16 @@
+export enum CompareOperator {
+  AND = 'and',
+  OR = 'or',
+  XOR = 'xor',
+  EQUALS = '=',
+  NOTEQUALS = '!',
+  GREATERTHAN = '>',
+  LESSTHAN = '<',
+  STARTSWITH = '^',
+  ENDSWITH = '$',
+  IN = 'in',
+  NOTIN = '!in',
+  REGEX = 'regex',
+  UNDEFINED = 'undef',
+  NOTUNDEFINED = '!undef',
+};
