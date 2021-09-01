@@ -10,14 +10,14 @@
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build",
-    "test": "NODE_PATH=\"./dist\" node tests/index.spec.js"
+    "test": "jest"
   },
   "moduleDirectories": [
     "node_modules",
     "src"
   ],
   "author": "Donny Swany",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/node": "^16.6.1",
